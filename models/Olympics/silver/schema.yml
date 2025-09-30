@@ -1,0 +1,9 @@
+version:2
+
+models:
+    - name: int_athletes_stats
+      columns:
+          - name: athletes_stats_id
+            tests:
+                - unique
+                - not_null
